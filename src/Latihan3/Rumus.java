@@ -8,16 +8,27 @@ public class Rumus {
     int lebar;
     int hasil;
     
-   // Method untuk menghitung luas persegi
-    public void hitungLuasPersegi() {
+   public void hitungLuasPersegi() {
         hasil = sisi * sisi;
-        System.out.println("Luas Persegi = " + hasil);
+        
+        System.out.println("Luas Persegi =" +hasil);
     }
-
-    // Method untuk menghitung luas persegi panjang
-    public void hitungLuasPersegiPanjang() {
+     public void hitungLuasPersegiPanjang() {
         hasil = panjang * lebar;
-        System.out.println("Luas Persegi Panjang = " + hasil);
+        
+        System.out.println("Luas Persegi Panjang =" +hasil);
+     }
+     public int getHasil() {
+        return hasil;
     }
 
+    public Rumus(int sisi, int panjang, int lebar, int hasil) {
+        this.sisi = sisi;
+        this.panjang = panjang;
+        this.lebar = lebar;
+        this.hasil = hasil;
+    }
+     
+     
 }
+
