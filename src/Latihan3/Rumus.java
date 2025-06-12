@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Latihan3;
+//Nama : Muhammad Rafiandra Darsyaf, NPM : 2310010217,
 
-/**
- *
- * @author mrdar
- */
 public class Rumus {
-    
+    // Atribut bertipe bilangan bulat
+    int sisi;
+    int panjang;
+    int lebar;
+    int hasil;
 }
