@@ -2,23 +2,22 @@ package Latihan3;
 //Nama : Muhammad Rafiandra Darsyaf, NPM : 2310010217,
 
 public class Rumus {
-    // Atribut bertipe bilangan bulat
     int sisi;
     int panjang;
     int lebar;
     int hasil;
-    
-   public void hitungLuasPersegi() {
+
+    public void hitungLuasPersegi() {
         hasil = sisi * sisi;
-        
-        System.out.println("Luas Persegi =" +hasil);
+        System.out.println("Luas Persegi = " + hasil);
     }
-     public void hitungLuasPersegiPanjang() {
+
+    public void hitungLuasPersegiPanjang() {
         hasil = panjang * lebar;
-        
-        System.out.println("Luas Persegi Panjang =" +hasil);
-     }
-     public int getHasil() {
+        System.out.println("Luas Persegi Panjang = " + hasil);
+    }
+
+    public int getHasil() {
         return hasil;
     }
 
@@ -28,7 +27,6 @@ public class Rumus {
         this.lebar = lebar;
         this.hasil = hasil;
     }
-     
-     
 }
+
 
