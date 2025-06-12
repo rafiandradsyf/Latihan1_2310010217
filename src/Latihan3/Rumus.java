@@ -1,5 +1,5 @@
 package Latihan3;
-//Nama : Muhammad Rafiandra Darsyaf, NPM : 2310010217,
+//Nama : Muhammad Rafiandra Darsyaf,  NPM : 2310010217,
 
 public class Rumus {
     int sisi;
